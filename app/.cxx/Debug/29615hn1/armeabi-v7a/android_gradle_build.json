@@ -1,0 +1,40 @@
+{
+  "buildFiles": [
+    "/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/andrewkisyk/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/.cxx/Debug/29615hn1/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/andrewkisyk/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/.cxx/Debug/29615hn1/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "native-lib",
+      "output": "/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/build/intermediates/cxx/Debug/29615hn1/obj/armeabi-v7a/libnative-lib.so",
+      "runtimeFiles": [
+        "/Users/andrewkisyk/Library/Android/sdk/opencv-4.1.1-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_java4.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/andrewkisyk/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/andrewkisyk/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

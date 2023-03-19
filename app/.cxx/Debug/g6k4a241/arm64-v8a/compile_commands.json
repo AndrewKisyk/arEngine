@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/andrewkisyk/StudioProjects/arEngine/app/.cxx/Debug/g6k4a241/arm64-v8a",
+  "command": "/Users/andrewkisyk/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/andrewkisyk/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/andrewkisyk/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I/Users/andrewkisyk/Library/Android/sdk/opencv-4.1.1-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /Users/andrewkisyk/StudioProjects/arEngine/app/src/main/cpp/native-lib.cpp",
+  "file": "/Users/andrewkisyk/StudioProjects/arEngine/app/src/main/cpp/native-lib.cpp"
+}
+]

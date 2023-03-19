@@ -1,0 +1,3 @@
+# ninja log v5
+0	804	1679261956	CMakeFiles/native-lib.dir/native-lib.cpp.o	47f20dd016aa3922
+805	870	1679261956	/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/build/intermediates/cxx/Debug/29615hn1/obj/arm64-v8a/libnative-lib.so	4aadc2b64cef984d

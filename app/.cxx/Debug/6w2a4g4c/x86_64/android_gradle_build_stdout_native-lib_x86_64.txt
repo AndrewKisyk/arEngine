@@ -1,0 +1,3 @@
+ninja: Entering directory `/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/.cxx/Debug/6w2a4g4c/x86_64'
+[1/2] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+[2/2] Linking CXX shared library /Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/build/intermediates/cxx/Debug/6w2a4g4c/obj/x86_64/libnative-lib.so

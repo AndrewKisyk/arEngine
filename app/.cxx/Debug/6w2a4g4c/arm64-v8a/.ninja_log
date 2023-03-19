@@ -1,0 +1,9 @@
+# ninja log v5
+0	669	1679003765	CMakeFiles/native-lib.dir/native-lib.cpp.o	1e81d0f1b425bf5d
+669	736	1679003765	/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/build/intermediates/cxx/Debug/6w2a4g4c/obj/arm64-v8a/libnative-lib.so	bf6689bd95b41364
+0	11	0	clean	b6ba64804adbd6ae
+1	1242	1679251746	CMakeFiles/native-lib.dir/native-lib.cpp.o	1e81d0f1b425bf5d
+1242	1444	1679251747	/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/build/intermediates/cxx/Debug/6w2a4g4c/obj/arm64-v8a/libnative-lib.so	bf6689bd95b41364
+0	14	0	clean	b6ba64804adbd6ae
+2	954	1679252131	CMakeFiles/native-lib.dir/native-lib.cpp.o	1e81d0f1b425bf5d
+954	1108	1679252131	/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/build/intermediates/cxx/Debug/6w2a4g4c/obj/arm64-v8a/libnative-lib.so	bf6689bd95b41364

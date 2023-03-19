@@ -1,0 +1,53 @@
+{
+  "ndkFolder": "/Users/andrewkisyk/Library/Android/sdk/ndk/23.1.7779620",
+  "messages": [
+    {
+      "level": "INFO",
+      "message": "android.ndkVersion from module build.gradle is 23.1.7779620"
+    },
+    {
+      "level": "INFO",
+      "message": "ndk.dir in local.properties is not set"
+    },
+    {
+      "level": "INFO",
+      "message": "ANDROID_NDK_HOME environment variable is not set"
+    },
+    {
+      "level": "INFO",
+      "message": "sdkFolder is /Users/andrewkisyk/Library/Android/sdk"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering /Users/andrewkisyk/Library/Android/sdk/ndk-bundle in SDK ndk-bundle folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering /Users/andrewkisyk/Library/Android/sdk/ndk/24.0.8215888 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering /Users/andrewkisyk/Library/Android/sdk/ndk/21.4.7075529 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering /Users/andrewkisyk/Library/Android/sdk/ndk/21.3.6528147 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering /Users/andrewkisyk/Library/Android/sdk/ndk/21.1.6352462 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering /Users/andrewkisyk/Library/Android/sdk/ndk/23.1.7779620 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Rejected /Users/andrewkisyk/Library/Android/sdk/ndk-bundle in SDK ndk-bundle folder because that location has no source.properties"
+    },
+    {
+      "level": "INFO",
+      "message": "Found requested NDK version 23.1.7779620 at /Users/andrewkisyk/Library/Android/sdk/ndk/23.1.7779620"
+    }
+  ]
+}

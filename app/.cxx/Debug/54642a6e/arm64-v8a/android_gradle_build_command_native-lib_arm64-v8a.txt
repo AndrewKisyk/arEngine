@@ -1,0 +1,7 @@
+Executable : /Users/andrewkisyk/Library/Android/sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/.cxx/Debug/54642a6e/arm64-v8a
+native-lib
+jvmArgs : 
+

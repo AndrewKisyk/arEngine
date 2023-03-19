@@ -1,0 +1,49 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/andrewkisyk/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/.cxx/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"lib_opencv-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "lib_opencv",
+			"buildType" : "release",
+			"output" : "/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/src/main/jniLibs/x86/libopencv_java3.so",
+			"toolchain" : "15589402600020916144"
+		},
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/andrewkisyk/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/.cxx/cmake/release/x86 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --sysroot=/Users/andrewkisyk/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../..//Users/andrewkisyk/Library/Android/sdk/opencv-4.1.1-android-sdk/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/.cxx/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "15589402600020916144"
+		}
+	},
+	"toolchains" : 
+	{
+		"15589402600020916144" : 
+		{
+			"cCompilerExecutable" : "/Users/andrewkisyk/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/andrewkisyk/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

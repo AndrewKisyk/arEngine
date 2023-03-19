@@ -1,0 +1,3 @@
+/Users/andrewkisyk/StudioProjects/arEngine/app/.cxx/Debug/5156v521/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/andrewkisyk/StudioProjects/arEngine/app/.cxx/Debug/5156v521/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/andrewkisyk/StudioProjects/arEngine/app/.cxx/Debug/5156v521/arm64-v8a/CMakeFiles/native-lib.dir

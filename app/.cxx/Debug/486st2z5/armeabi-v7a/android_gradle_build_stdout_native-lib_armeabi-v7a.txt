@@ -1,0 +1,1 @@
+ninja: Entering directory `/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/.cxx/Debug/486st2z5/armeabi-v7a'

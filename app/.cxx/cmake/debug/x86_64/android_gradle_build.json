@@ -1,0 +1,49 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/andrewkisyk/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/.cxx/cmake/debug/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"lib_opencv-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "lib_opencv",
+			"buildType" : "debug",
+			"output" : "/Users/andrewkisyk/Library/Android/sdk/opencv-4.1.1-android-sdk/sdk/native/libs/x86_64/libopencv_java4.so",
+			"toolchain" : "9197020546752166734"
+		},
+		"native-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/andrewkisyk/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/.cxx/cmake/debug/x86_64 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/andrewkisyk/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/andrewkisyk/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/andrewkisyk/Library/Android/sdk/opencv-4.1.1-android-sdk/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/.cxx/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+			"toolchain" : "9197020546752166734"
+		}
+	},
+	"toolchains" : 
+	{
+		"9197020546752166734" : 
+		{
+			"cCompilerExecutable" : "/Users/andrewkisyk/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/andrewkisyk/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

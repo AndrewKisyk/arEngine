@@ -1,0 +1,26 @@
+                    Executable : /Users/andrewkisyk/Library/Android/sdk/cmake/3.18.1/bin/cmake
+arguments : 
+-H/Users/andrewkisyk/StudioProjects/arEngine/app/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=24
+-DANDROID_PLATFORM=android-24
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=/Users/andrewkisyk/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_ANDROID_NDK=/Users/andrewkisyk/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=/Users/andrewkisyk/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/andrewkisyk/Library/Android/sdk/cmake/3.18.1/bin/ninja
+-DCMAKE_CXX_FLAGS=-frtti -fexceptions
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/andrewkisyk/StudioProjects/arEngine/app/build/intermediates/cxx/Debug/5156v521/obj/arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/andrewkisyk/StudioProjects/arEngine/app/build/intermediates/cxx/Debug/5156v521/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-B/Users/andrewkisyk/StudioProjects/arEngine/app/.cxx/Debug/5156v521/arm64-v8a
+-GNinja
+-DOpenCV_DIR=/Users/andrewkisyk/Library/Android/sdk/opencv-4.1.1-android-sdk/sdk/native
+-DANDROID_STL=c++_shared
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

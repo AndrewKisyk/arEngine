@@ -1,0 +1,16 @@
+Executable : /Users/andrewkisyk/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/src/main/cpp
+-B/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/.cxx/cmake/debug/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/andrewkisyk/StudioProjects/opencv_native_androidstudio/app/build/intermediates/cmake/debug/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/andrewkisyk/Library/Android/sdk/ndk/23.1.7779620
+-DCMAKE_CXX_FLAGS=-frtti -fexceptions
+-DCMAKE_TOOLCHAIN_FILE=/Users/andrewkisyk/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/andrewkisyk/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DOpenCV_DIR=/Users/andrewkisyk/Library/Android/sdk/opencv-4.1.1-android-sdk/sdk/native
+jvmArgs : 
+
