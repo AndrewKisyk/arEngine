@@ -6,12 +6,11 @@
 
 using namespace std;
 using namespace cv;
-
 extern "C"
-{
-void JNICALL Java_ch_hepia_iti_opencvnativeandroidstudio_MainActivity_salt(JNIEnv *env, jobject instance,
-                                                                           jlong matAddrGray,
-                                                                           jint nbrElem) {
+JNIEXPORT void JNICALL
+Java_com_android_arengiene_ArEngineController_00024ArEngineControllerImpl_salt(JNIEnv *env, jobject instance,
+                                                                               jlong matAddrGray,
+                                                                               jint nbrElem) {
     Mat &mGr = *(Mat *) matAddrGray;
     for (int k = 0; k < nbrElem; k++) {
         int i = rand() % mGr.cols;
