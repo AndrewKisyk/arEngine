@@ -4,6 +4,7 @@ import android.view.SurfaceView
 import org.opencv.android.CameraBridgeViewBase
 import org.opencv.android.JavaCameraView
 import org.opencv.android.OpenCVLoader
+import org.opencv.core.Core
 import org.opencv.core.Mat
 
 interface ArEngineController {
@@ -13,17 +14,22 @@ interface ArEngineController {
     class ArEngineControllerImpl: ArEngineController {
         private var mRGBA: Mat? = null
         private var cameraBridge: CameraBridgeViewBase? = null
-        
+
+
         private val cvCameraViewListener = object : CameraBridgeViewBase.CvCameraViewListener2 {
             override fun onCameraViewStarted(width: Int, height: Int) = Unit
 
             override fun onCameraViewStopped() = Unit
 
             override fun onCameraFrame(inputFrame: CameraBridgeViewBase.CvCameraViewFrame?): Mat? {
-                mRGBA = inputFrame?.rgba()
+                mRGBA = inputFrame?.rgba() ?: return null
+                Core.flip(mRGBA?.t(), mRGBA, 1)
+                humanDetection( mRGBA?.nativeObjAddr ?: return null)
+                Core.flip(mRGBA?.t(), mRGBA, 0);
                 return mRGBA
             }
         }
+
         override fun initEngine(javaCameraView: JavaCameraView) {
             if (!OpenCVLoader.initDebug()) {
                 System.loadLibrary("opencv_java4")
@@ -52,7 +58,7 @@ interface ArEngineController {
             mRGBA = null
         }
 
-        external fun salt(matAddrGray: Long, nbrElem: Int)
+        external fun humanDetection(matAddr: Long)
     }
 
 }
