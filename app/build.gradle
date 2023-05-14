@@ -50,6 +50,7 @@ dependencies {
     implementation fileTree(dir: "$buildDir/native-libs", include: 'native-libs.jar')
     implementation 'com.github.iammert:CameraVideoButton:0.2'
     implementation 'com.google.android.material:material:1.8.0'
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0"
 }
 
 task nativeLibsToJar(type: Jar, description: 'create a jar archive of the native libs') {

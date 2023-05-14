@@ -6,6 +6,6 @@
 #define ARENGINE_HUMANDETECTION_H
 #ifdef __cplusplus
 extern "C"
-JNIEXPORT void JNICALL Java_com_android_arengiene_ArEngineController_00024ArEngineControllerImpl_humanDetection(JNIEnv*, jobject, jlong);
+JNIEXPORT jobject JNICALL Java_com_android_arengiene_HumanDetectorKt_humanDetection(JNIEnv*, jobject, jlong);
 #endif
 #endif
